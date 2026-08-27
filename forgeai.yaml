@@ -1,0 +1,19 @@
+﻿forgeai:
+  version: "1"
+
+project:
+  language: python
+  framework: none
+
+dependencies:
+  manager: pip
+  manifests:
+    - pyproject.toml
+
+testing:
+  framework: pytest
+  test_paths:
+    - tests/
+
+repair:
+  enabled: true
